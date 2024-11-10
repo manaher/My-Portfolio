@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 const Hero = () => {
   return (
     <div id='hero' className='min-h-screen bg-no-repeat bg-[url(/profile.png)] bg-cover'
-    style={{backgroundSize: "31%", backgroundPosition: "left 60px top 90px"}}>
+    style={{backgroundSize: "31%", backgroundPosition: "left 80px top 90px"}}>
 
       <Navbar />
       <div className='container grid lg:grid-cols-2 h-[calc(100vh-60px)]'>
